@@ -19,7 +19,7 @@ Originally designed for Google Cloud Platform (GCP), this project was pivoted to
 2.  **Compute:** The Python API is packaged in a Docker container and stored in the OCI Container Registry (OCIR). It runs inside a serverless OCI Function, meaning compute resources are only consumed upon invocation.
 3.  **Routing:** An OCI API Gateway handles public HTTP routing and forwards requests to the underlying function.
 4.  **Security:** A strict "Zero Trust" IAM policy is enforced at the infrastructure level, explicitly granting the API Gateway permission to invoke the serverless function.
-
+![diagram](architecture.png)
 ## 🚀 Deployment Guide
 
 ### Prerequisites
