@@ -31,7 +31,7 @@ Originally designed for Google Cloud Platform (GCP), this project was pivoted to
 Clone the repository and set up your local environment variables. **Note:** Ensure your `.pem` key and `terraform.tfvars` remain in `.gitignore` to prevent credential leakage.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Chinkhuselts/Serverless-API
 cd oracle-serverless-api
 ```
 Create a `terraform.tfvars` file in the root directory:
@@ -70,7 +70,7 @@ Once deployed, the API can be invoked via standard HTTP requests. Note that the 
 Request:
 
 ```bash
-curl -v https://<YOUR_GATEWAY_ID>.apigateway.eu-stockholm-1.oci.customer-oci.com/api/hello
+curl -v https://btko5yo6f4hqjdugvzs5upk3ha.apigateway.eu-stockholm-1.oci.customer-oci.com/api/hello
 ```
 Response:
 
